@@ -4,7 +4,7 @@ layout: default
 
 <div class="catalogue">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+<!--     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item"> -->
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
@@ -13,6 +13,8 @@ layout: default
         <p>
           {{ post.content | truncatewords: 30 | strip_html }}
         </p>
+        
+        <iframe src="https://framer.cloud/KDsdx/" width="100%" height="600px" scrolling="no" style="border:none;" ></iframe>
 
       </div>
     </a>
