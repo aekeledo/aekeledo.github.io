@@ -1,14 +1,13 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          dom's experiments & prototyping
+description:    "A place to learn, experiment, and prototype interactions"
+url:            "https://aekeledo.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Adanma Dom Ekeledo
+  url:          https://hello-dom.com
+  email:       aekeledo@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -24,4 +23,4 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       10
